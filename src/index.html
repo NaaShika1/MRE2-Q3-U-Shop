@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>U-Shop</title>
+  </head>
+  <body>
+    <h1>Welcome to U-Shop @MSU</h1>
+    <label for="Name">Buyer's Name: <input id="name" name="name" type="text" required /></label><br><br>
+    <label for="state">State: <input id="state" name="state" type="text" required /></label><br>
+
+  
+<table>
+  <thead>
+    <tr>
+      <th>Product name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Twisties</td>
+      <td>RM 3.00</td>
+      <td><label for="quantity"><input id="quantity" name="quantity" type="text" required /></label></td>
+    </tr>
+    <tr>
+      <td>Cadbury's chocolate</td>
+      <td>RM 3.50</td>
+      <td><label for="quantity"><input id="quantity" name="quantity" type="text" required /></label></td>
+    </tr>
+    <tr>
+      <td>Cadbury's nut chocolate</td>
+      <td>RM 4.50</td>
+      <td><label for="quantity"><input id="quantity" name="quantity" type="text" required /></label></td>
+    </tr>
+  </tbody>
+  <tfoot>
+  <tr>
+    <td>Cloud 9</td>
+    <td>RM 0.30</td>
+    <td><label for="quantity"><input id="quantity" name="quantity" type="text" required /></label></td>
+  </tr>
+</tfoot>
+</table><br>
+<label><b>Payment method</b></label><br> 
+    <label for="method"><input id="method" type="radio" name="method"  /> Cash</label><br>
+    <label for="method"><input id="method" type="radio" name="method" /> Visa</label><br>
+    <label for="method"><input id="method" type="radio" name="method"  /> Mastercard</label><br><br>
+    <input type="submit" value="Submit order" />
+    <input type="submit" value="Cancel order" />
+</body>
+</html>
